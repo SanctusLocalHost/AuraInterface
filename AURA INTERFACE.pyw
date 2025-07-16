@@ -7,6 +7,9 @@ import math
 import pyautogui
 import threading
 
+
+# pip install opencv-python mediapipe numpy pyautogui
+
 # --- Tenta importar bibliotecas específicas para o sistema ---
 IS_WINDOWS = platform.system() == 'Windows'
 if IS_WINDOWS:
